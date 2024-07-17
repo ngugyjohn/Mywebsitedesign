@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/SourceSansPro-Regular.woff2') format('woff2'),
+         url('fonts/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+body {
+    font-family: 'source sans pro', Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: grba(255, 255, 255, 1.0);
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.background-container {
+    background-image: url('Images/image.png'); /* Remember to comfirm the accuracy of the image path*/
+    background-size: cover;
+    background-color: aquamarine;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkcyan;
+    opacity: 1.0;
+    color: rgba(255, 255, 255, 1.0);
+}
+header nav img {
+    width: 167px;
+    height: 29px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    gap: 30px;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+
+/* 
+header nav {
+    display: flex;
+
+} */
